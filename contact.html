@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barcelona-contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="/js/jqBootstrapValidation.js" defer></script>
+		<script src="./js/bootstrap.min.js" defer></script>
+		<script src="./js/jqBootstrapValidation.js" defer></script>
+		<script src="./js/contact_me.js" defer></script>
+		<link href="css/carousel.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="Shortcut icon" href="foto/icon3.ico" />
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		
+</head>
+
+<body>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">
+			<img class="img" src="foto/title2.png" alt="page title" width="100" height="27">
+	  </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="default"><a href="index.html">Home</a></li>
+        <li><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="gallery.html">Gallery</a></li> 
+        <li><a href="information.html">Information</a></li> 
+		<li><a href="map.html">Map</a></li> 
+      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+					<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+			  </ul>
+    </div>
+  </div>
+        </nav>
+
+      </div>
+    </div>
+	  
+
+
+ <div class="container"style="padding-top:150px;">
+
+<div id="contacts">
+   <div class="row">	
+
+	<div class="col-sm-offset-3 col-sm-6">
+
+          <form name="sentMessage" class="well" id="contactForm"  novalidate>
+	       <h4 style="text-align:center">Contact Me</h4>
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control" 
+			   	   placeholder="Full Name" id="name" required
+			           data-validation-required-message="Please enter your name" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div> 	
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="Email" 
+			   	            id="email" required
+			   		   data-validation-required-message="Please enter your email" />
+		</div>
+	    </div> 	
+			  
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="Message" id="message" required
+		       data-validation-required-message="Please enter your message" minlength="5" 
+                       data-validation-minlength-message="Min 5 characters" 
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div> 		 
+	     <div id="success"> </div> <!-- For success/fail messages -->
+	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+          </form>
+	</div>
+      </div>
+    </div>
+ 
+ </div>
+
+<div class="footer">
+
+	  <hr>
+			<div class="col-md-8 col-md-offset-2">
+			
+		      <footer>
+				<p class="pull-right"><a href="terms.html">Terms</a>&#160;&#183;&#160;<a href="#">Back to top</a></p>
+				<p>&copy; 2016 Bartosz Ammer |
+	
+		
+			 <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#basicModal">About me</a>
+	
+				<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">About me</h4>
+							</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-4" style="text-align: center;">
+									<img class="img" src="foto/about_me.png" alt="about me photo" width="140" height="140">
+								</div>
+								
+								<div class="col-md-8" style="height: 10em; display: flex; align-items: center; justify-content: center;">
+									<p>My name is Bartosz Ammer. I'm from Poland and I'm first-year student of Computer Science. My passion is photography and of course programming. I also like travelling and learning new things.</p>
+								</div>
+							</div>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+						</div>
+					</div>
+				</div>
+				
+				</p>
+			 
+			 </footer>
+			  </div>
+</div>
+ 
+
+
+</body>
+</html>

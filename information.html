@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barcelona-information</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<link href="css/carousel.css" rel="stylesheet">
+		
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="js/bootstrap.js" defer></script>
+		<script src="assets/smooth-scroll/SmoothScroll.js" defer></script>
+		<script src="js/jquery.cookie.js"></script>
+		
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		<link rel="Shortcut icon" href="foto/icon3.ico" />
+		
+<script type="text/javascript">
+
+
+$(document).ready(function($) {
+
+    if ($.cookie('noPreloaderinfo'))
+    {
+        $('#preloader').hide();
+    } 
+    else 
+    {
+        $(window).load(function() {
+            $('#preloader').delay(1200).fadeOut(800,function() {
+                $(this).remove();
+            });
+        });
+
+        // and now we create 1 year cookie
+        $.cookie('noPreloaderinfo', true, {path: '/', expire: 30});
+    }
+});
+
+
+</script>
+
+</head>
+
+<body>
+  <style>
+.modal.modal-wide .modal-dialog {
+  width: 95%;
+
+}
+.modal-wide .modal-body {
+
+ overflow-y: auto;
+
+}
+#preloader  {
+     position: fixed;
+	 overflow: hidden;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #fefefe;
+     z-index: 99;
+     height: 100%;
+ }
+
+#status  {
+    
+     position: relative;
+     padding-left: 50%;
+     padding-top: 50%;
+	 
+     background-image: url(foto/preloader.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+    
+ }
+  </style>
+  
+<div id="preloader">
+  <div id="status"></div>
+</div>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">
+			<img class="img" src="foto/title2.png" alt="page title" width="100" height="27">
+	  </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="default"><a href="index.html">Home</a></li>
+        <li><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="gallery.html">Gallery</a></li> 
+        <li class="active"><a href="information.html">Information</a></li> 
+		<li><a href="map.html">Map</a></li> 
+      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+					<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+			  </ul>
+    </div>
+  </div>
+        </nav>
+
+      </div>
+    </div>
+<div class="container">
+
+          <div class="col-md-8 col-md-offset-2">
+		  	<div class="logo_container">
+				<img class="img-responsive center-block" src="foto/information_logo.png" alt="information logo">
+		  </div>
+	</div>
+</div>  	  
+
+
+    <div class="container">
+
+
+      <!-- START THE FEATURETTES -->
+
+
+
+      <div class="row featurette">
+	  
+        <div class="col-md-12">
+
+		  
+          <p class="lead">Barcelona is the capital city of the autonomous community of Catalonia in Spain and Spain's second most populated city, with a population of 1.6 million within 
+		  its administrative limits. Its urban area extends beyond the administrative city limits with a population of around 4.7 million people, being the seventh-most populous urban area 
+		  in the European Union after Paris,London, Madrid, the Ruhr area, Berlin and Milan. It is the largest metropolis on the Mediterranean Sea, located on the coast between the mouths of 
+		  the rivers Llobregat and Besos, and bounded to the west by the Serra de Collserola mountain range, the tallest peak of which is 512 metres (1,680 ft) high.
+		  </p>
+		  	  	  <hr class="divider">
+        </div>
+		
+		
+        <div class="col-md-12">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal1">
+			<img class="img-responsive" src="foto/information/panorama1.jpg" alt="panorama day">
+		</a>
+        <div class="modal fade modal-wide" id="myModal1" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body" style="max-height:500px;overflow-y: auto;overflow-x: scroll;">
+							<img class="center-block" style="padding-right:15px;" src="foto/information/big/panorama5.jpg" alt="panorama day">
+							<p style="text-align:left"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+							
+					</div>
+					
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Barcelona during day | &copy; Bartosz Ammer</span></p>
+		  
+		  <a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal2">
+			<img class="img-responsive" src="foto/information/panorama2.jpg" alt="panorama night">
+		</a>
+        <div class="modal fade modal-wide" id="myModal2" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body" style="max-height:500px;overflow-y: auto;overflow-x: scroll;">
+							<img class="center-block" style="padding-right:15px;" src="foto/information/big/panorama4.jpg" alt="panorama night">
+							<p style="text-align:left"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Barcelona by night | &copy; Bartosz Ammer</span></p>
+        </div>
+    
+
+        <div class="col-md-12">
+          	  	  <hr class="divider">
+		  
+          <p class="lead">Founded as a Roman city, in the Middle Ages Barcelona became the capital of the County of Barcelona. 
+		  After merging with the Kingdom of Aragon, Barcelona continued to be an important city in the Crown of Aragonas an economical and administrative center of this 
+		  Crown and the capital of the Principality of Catalonia. Besieged several times during its history, Barcelona has a rich cultural heritage and is today an important 
+		  cultural center and a major tourist destination. Particularly renowned are the architectural works of Antoni Gaud&#237; and Llu&#237;s Domenech i Montaner, which have been 
+		  designated UNESCO World Heritage Sites. The headquarters of the Union for the Mediterranean is located in Barcelona. The city is known for hosting the 1992 Summer 
+		  Olympics as well as world-class conferences and expositions and also many international sport tournaments.
+		  </p>
+        </div>
+		
+		<div class="col-md-12">
+		         	  	  <hr class="divider">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal3">
+			<img class="img-responsive" src="foto/information/info_foto1.jpg" alt="info foto1">
+		</a>
+        <div class="modal fade modal-wide" id="myModal3" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body">
+							<img class="img-responsive center-block" src="foto/information/big/info_foto1.jpg" alt="info photo1">
+							<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+					  
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Casa Batll&#243; | &copy; Bartosz Ammer</span></p>
+		  
+        </div>
+		
+		<div class="col-md-12">
+          	<hr class="divider">
+		  
+          <p class="lead">Barcelona is one of the world's leading tourist, economic, trade fair and cultural centers, and 
+		  its influence in commerce, education, entertainment, media, fashion, science, and the arts all contribute to its status as one of the world's major global cities. 
+		  It is a major cultural and economic center in southwestern Europe. Barcelona is a transport hub with the Port of Barcelona being one of Europe's principal seaports 
+		  and busiest European passenger port, an international airport, Barcelona-El Prat Airport, which handles above 35 million passengers per year, an extensive motorway 
+		  network and a high-speed rail line with a link to France and the rest of Europe.
+		  </p>
+        </div>
+		
+		<div class="col-md-12">
+		         	  	  <hr class="divider">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal4">
+			<img class="img-responsive" src="foto/information/info_foto2.jpg" alt="info photo2">
+		</a>
+        <div class="modal fade modal-wide" id="myModal4" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body">
+							<img class="img-responsive center-block" src="foto/information/big/info_foto2.jpg" alt="info photo2">
+							<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Port of Barcelona | &copy; Bartosz Ammer</span></p>
+		  
+        </div>
+		
+		<div class="col-md-12">
+          	<hr class="divider">
+		  
+          <p class="lead">Barcelona is served by a comprehensive local public transport network that includes a metro, a bus network, two separate modern tram networks, 
+		  a separate historic tram line, and several funiculars and aerial cable cars. Most of these networks and lines form a coordinated fare system, administered by the 
+		  Autoritat del Transport Metropolita (ATM), although they are operated by a number of different bodies. This integrated public transport is divided into different 
+		  zones (1 to 6) and depending on usage various Integrated Travel Cards are available. The largely underground Barcelona Metro network comprises eleven lines, 
+		  identified by an "L" followed by the line number as well as by individual colors. Eight of these lines are operated on dedicated track by the Transports 
+		  Metropolitans de Barcelona (TMB), whilst three lines are operated by the Ferrocarrils de la Generalitat de Catalunya (FGC) and share tracks with that company's commuter lines.
+
+		  </p>
+        </div>
+		
+		<div class="col-md-12">
+		         	  	  <hr class="divider">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal5">
+			<img class="img-responsive center-block" src="foto/information/info_foto3.jpg" alt="info photo3">
+		</a>
+        <div class="modal fade modal-wide" id="myModal5" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body">
+							<img class="img-responsive center-block" src="foto/information/big/info_foto3.jpg" alt="info photo3">
+							<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Touristic bus | &copy; Bartosz Ammer</span></p>
+		  
+        </div>
+		
+		<div class="col-md-12">
+          	<hr class="divider">
+		  
+          <p class="lead">Barcelona has a metered taxi fleet governed by the Institut Metropolita del Taxi (Metropolitan Taxi Institute), 
+		  composed of more than 10,000 cars. Most of the licences are in the hands of self-employed drivers. With their black and yellow livery, 
+		  Barcelona's taxis are easily spotted, and can be caught from one of many taxi ranks, hailed on street, or called by telephone.
+		  </p>
+        </div>
+		
+		<div class="col-md-12">
+		         	  	  <hr class="divider">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal6">
+			<img class="img-responsive center-block" src="foto/information/info_foto4.jpg" alt="info photo4">
+		</a>
+        <div class="modal fade modal-wide" id="myModal6" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body">
+							<img class="img-responsive center-block" src="foto/information/big/info_foto4.jpg" alt="info photo4">
+							<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Taxi car | &copy; Bartosz Ammer</span></p>
+		  
+        </div>
+		
+		<div class="col-md-12">
+          	<hr class="divider">
+		  
+          <p class="lead">On 22 March 2007, Barcelona's City Council started the Bicing service, a bicycle service understood as a public transport. 
+		  Once the user has their user card, they can take a bicycle from any of the more than 400 stations spread around the city and use it anywhere 
+		  the urban area of the city, and then leave it at another station. The service has been a success, with 50,000 subscribed users in three months.
+		  </p>
+        </div>
+		
+		<div class="col-md-12">
+		 <hr class="divider">
+		<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal7">
+			<img class="img-responsive center-block" src="foto/information/info_foto5.jpg" alt="info photo5">
+		</a>
+        <div class="modal fade modal-wide" id="myModal7" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+        
+					<div class="modal-body">
+							<img class="img-responsive center-block" src="foto/information/big/info_foto5.jpg" alt="info photo5">
+							<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		  <p style="text-align:center"><span class="text-muted">Bicing station | &copy; Bartosz Ammer</span></p>
+		  		 <hr>
+		<p><span class="text-muted">More information: <a href="https://en.wikipedia.org/wiki/Barcelona">en.wikipedia.org</a></span></p>	 
+        </div>
+      
+ 
+ </div>
+
+ </div>
+
+<div class="footer">
+
+	  <hr>
+			<div class="col-md-8 col-md-offset-2">
+			
+		      <footer>
+				<p class="pull-right"><a href="terms.html">Terms</a>&#160;&#183;&#160;<a href="#">Back to top</a></p>
+				<p>&copy; 2016 Bartosz Ammer |
+	
+	
+			 <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#basicModal">About me</a>
+	
+				<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">About me</h4>
+							</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-4" style="text-align: center;">
+									<img class="img" src="foto/about_me.png" alt="about me photo" width="140" height="140">
+								</div>
+								
+								<div class="col-md-8" style="height: 10em; display: flex; align-items: center; justify-content: center;">
+									<p>My name is Bartosz Ammer. I'm from Poland and I'm first-year student of Computer Science. My passion is photography and of course programming. I also like travelling and learning new things.</p>
+								</div>
+							</div>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+						</div>
+					</div>
+				</div>
+				
+				</p>
+			 
+			 </footer>
+			  </div>
+</div>
+	
+
+
+
+
+</body>
+</html>

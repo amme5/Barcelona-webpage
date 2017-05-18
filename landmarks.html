@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barcelona-landmarks</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<link href="css/carousel.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+		<link rel="stylesheet" href="assets/mobirise/css/style.css">  
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="assets/smooth-scroll/SmoothScroll.js" defer></script>
+		<script src="assets/jarallax/jarallax.js" defer></script>
+		<script src="assets/mobirise/js/script.js" defer></script>
+		<script src="assets/web/assets/jquery/jquery.min.js"></script>
+        <script src="js/bootstrap.js" defer></script>
+		<script src="js/jquery.cookie.js"></script>
+
+
+		<meta name="robots" content="noindex, nofollow">
+	    <link rel="Shortcut icon" href="foto/icon3.ico" />
+		
+<script type="text/javascript">
+
+
+$(document).ready(function($) {
+
+    if ($.cookie('noPreloaderlandmarks'))
+    {
+        $('#preloader').hide();
+    } 
+    else 
+    {
+        $(window).load(function() {
+            $('#preloader').delay(1200).fadeOut(800,function() {
+                $(this).remove();
+            });
+        });
+
+        // and now we create 1 year cookie
+        $.cookie('noPreloaderlandmarks', true, {path: '/', expire: 30});
+    }
+});
+
+
+</script>
+		
+		
+</head>
+
+<body>
+    <style>
+.modal.modal-wide .modal-dialog {
+  width: 95%;
+
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+.modal-open .modal,.btn:focus{
+    outline:none!important
+}
+#preloader  {
+     position: fixed;
+	 overflow: hidden;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #fefefe;
+     z-index: 99;
+    height: 100%;
+ }
+
+#status  {
+    
+     position: relative;
+     padding-left: 50%;
+     padding-top: 50%;
+	 z-index: 98;
+     background-image: url(foto/preloader.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+    
+ }
+  </style>
+  
+<div id="preloader">
+  <div id="status"></div>
+</div>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">
+			<img class="img" src="foto/title2.png" alt="page title" width="100" height="27">
+	  </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="default"><a href="index.html">Home</a></li>
+        <li class="active"><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="gallery.html">Gallery</a></li> 
+        <li><a href="information.html">Information</a></li> 
+		<li><a href="map.html">Map</a></li> 
+      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+					<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+			  </ul>
+    </div>
+  </div>
+        </nav>
+
+      </div>
+    </div>
+
+<div class="container">
+
+          <div class="col-md-8 col-md-offset-2">
+		  <div class="logo_container">
+				<img class="img-responsive center-block" src="foto/landmarks_logo.png" alt="landmarks logo">
+		  </div>
+		  </div>
+	</div>  	  
+
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax1.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+				
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal1">
+						<img src="foto/landmarks/landmark1.jpg" class="mbr-figure__img" alt="landmark1 photo">
+					</a>
+					
+					</figure>
+					
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                 <h2 class="heading">Sagrada Fam&#237;lia</h2>
+								 <h4 class="heading2">Basilica and Expiatory Church of the Holy Family</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+						The Sagrada Familia is one of the most famous landmarks in Barcelona. The church is such a huge size, so they often referred 
+						it as "cathedral", but without having a bishop's seat. Pope Benedict XVI. inaugurates the Sagrada Familia on November 7, 2010. 
+						The church building is raised to a basilica. The church in the district Eixample is being built since 1882, and is supposed 
+						to be finished in 2026. From 1883 the Catalan architect Antoni Gaud&#237; took over the leadership of the works until his 
+						death in 1926. The building is significantly influenced by him.</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+	
+			<div class="modal fade modal-wide" id="myModal1" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark1.jpg" alt="landmark1 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+					
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax6.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					
+					
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal2">
+						<img src="foto/landmarks/landmark3.jpg" class="mbr-figure__img" alt="landmark3 photo">
+					</a>
+					
+					</figure>
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">Park G&#252;ell</h2>
+								  <h4 class="heading2">Parc G&#252;ell</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+							Located in the city of Barcelona, the Park G&#252;ell is one of the most beautiful 
+							icons of the city. It's a work of Antoni Gaudi located in the upper part of Barcelona, 
+							which has wonderful views of the city. You can enjoy a fantastic green walk surrounded by a modernist works.
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal2" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark3.jpg" alt="landmark3 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax12.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal3">
+						<img src="foto/landmarks/landmark2.jpg" class="mbr-figure__img" alt="landmark2 photo">
+					</a>					
+					</figure>
+					
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">Magic Fountain of Montju&#239;c</h2>
+								  <h4 class="heading2">Fuente m&#225;gica de Montjuic</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">The magic fountain is a spectacular display of colour, light, 
+						motion, music and water acrobatics - if you mix these elements together in just the right combinations, you end up with pure magic!
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal3" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark2.jpg" alt="landmark2 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax10.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal4">
+						<img src="foto/landmarks/landmark6.jpg" class="mbr-figure__img" alt="landmark6 photo">
+					</a>
+					
+					</figure>
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">La Rambla</h2>
+								  <h4 class="heading2">Las Ramblas</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+							La Rambla is the most famous walking street in Barcelona. La Rambla goes from Plaza Catalunya to the 
+							Port Vell harbour of Barcelona. A stroll here is pure sensory overload, with souvenir hawkers, buskers, 
+							pavement artists, mimes and living statues all part of the ever-changing street scene.
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal4" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark6.jpg" alt="landmark6 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax8.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					
+					
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal5">
+						<img src="foto/landmarks/landmark5.jpg" class="mbr-figure__img" alt="landmark5 photo">
+					</a>
+					
+					</figure>
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">Torre Agbar</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+							This new landmark on the Barcelona skyline was added in 2003: an enormous bullet-shaped cylinder emerging from the ground and pointing skywards, 
+							with a glass surface in which the colours of the Mediterranean are reflected. The outer curtain wall is clad in different-coloured glass louvers 
+							which can be tilted at different angles. The colour scheme changes from the warmer reddish tones at the base to cooler blues and whites at the 
+							top. At night, when the tower is lit up and saturated with colour, it is a beautiful sight. The Agbar Tower is one of the symbols of contemporary Barcelona.
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal5" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark5.jpg" alt="landmark5 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax13.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal6">
+						<img src="foto/landmarks/landmark4.jpg" class="mbr-figure__img" alt="landmark4 photo">
+					</a>					
+					
+					</figure>
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">Poble Espanyol</h2>
+								  <h4 class="heading2">Pueblo espa&#241;ol</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+							The Poble Espanyol is an architectural museum in Barcelona, just a few meters away from the Fountains 
+							of Montjuic. It is one of the biggest attractions of the city because of a single set featuring about contemporary art, 
+							architecture, crafts and gastronomy in a quiet, safe and peaceful environment.
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal6" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark4.jpg" alt="landmark4 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+			
+      <hr class="divider">
+	  
+<section class="mbr-section mbr-section--relative mbr-parallax-background" id="msg-box4-11" style="background-image: url(parallax/parallax15.jpg);">
+    
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
+					
+					<a href="/myImage.png" id="pop" data-toggle="modal" data-target="#myModal7">
+						<img src="foto/landmarks/landmark7.jpg" class="mbr-figure__img" alt="landmark7 photo">
+					</a>	
+					</figure>
+					<p style="text-align:center;color:#BDBDBD;"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+				</div>
+                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 mbr-section__right">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                                  <h2 class="heading">Temple of the Sacred Heart of Jesus</h2>
+                                  <h4 class="heading2">Temple Expiatori del Sagrat Cor</h4>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p class="lead1">
+							Temple of the Sacred Heart of Jesus is located at the highest point of mountain of Tibidabo. This, together with 
+							its beautiful and almost imposing silhouette, ensures that it's one of the most iconic sights of Barcelona.
+						</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+			<div class="modal fade modal-wide" id="myModal7" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+        
+								<div class="modal-body">
+									<img class="img-responsive center-block" src="foto/landmarks/big/landmark7.jpg" alt="landmark7 photo">
+									<p style="text-align:center"><span class="text-muted">&copy; Bartosz Ammer</span></p>
+								</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+							</div>
+						</div>
+			</div>
+
+
+
+<div class="footer">
+      <!-- FOOTER -->
+	  <hr>
+			<div class="col-md-8 col-md-offset-2">
+			
+		      <footer>
+				<p class="pull-right"><a href="terms.html">Terms</a>&#160;&#183;&#160;<a href="#">Back to top</a></p>
+				<p>&copy; 2016 Bartosz Ammer |
+	
+	<!-- Modal -->			
+			 <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#basicModal">About me</a>
+	
+				<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">About me</h4>
+							</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-4" style="text-align: center;">
+									<img class="img" src="foto/about_me.png" alt="about me photo" width="140" height="140">
+								</div>
+								
+								<div class="col-md-8" style="height: 10em; display: flex; align-items: center; justify-content: center;">
+									<p>My name is Bartosz Ammer. I'm from Poland and I'm first-year student of Computer Science. My passion is photography and of course programming. I also like travelling and learning new things.</p>
+								</div>
+							</div>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+						</div>
+					</div>
+				</div>
+				
+				</p>
+			 
+			 </footer>
+			  </div>
+</div>
+	
+
+
+
+
+</body>
+</html>

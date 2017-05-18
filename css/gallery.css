@@ -1,0 +1,39 @@
+body{padding-bottom:40px;color:#5a5a5a;}
+.navbar-wrapper{position:absolute;top:0;right:0;left:0;z-index:20;}
+.navbar-wrapper > .container{padding-right:0;padding-left:0;}
+.navbar-wrapper .navbar{padding-right:15px;padding-left:15px;}
+.navbar-wrapper .navbar .container{width:auto;}
+.carousel h1{text-shadow:5px 5px 15px black;font-weight:bold;}
+.marketing .col-lg-4{margin-bottom:20px;text-align:center;}
+.marketing h2{font-weight:normal;}
+.marketing .col-lg-4 p{margin-right:10px;margin-left:10px;}
+.featurette-divider{margin:80px 0;}
+.featurette-heading{font-weight:300;line-height:1;letter-spacing:-1px;color:white;}
+.featurette-heading::selection{background:#FFC904;}
+.featurette-heading::-moz-selection{background:#FFC904;}
+.featurette-heading2{font-weight:150;line-height:1;letter-spacing:-1px;color:white;}
+.featurette-heading2::selection{background:#FFC904;}
+.featurette-heading2::-moz-selection{background:#FFC904;}
+.footer{padding-top:150px;}
+.icon_container img{height:130px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-o-transition:all 1s ease;}
+.icon_container img:hover{opacity:0.7;filter:alpha(opacity=50);-o-transition:all 0.4s;-moz-transition:all 0.4s;-webkit-transition:all 0.4s;-moz-transform:scale(1.1);-o-transform:scale(1.1);-webkit-transform:scale(1.1);}
+.panel_under_btn{font-size:24px;font-weight:bold;padding:0px 20%;}
+.container_gallery{padding-top:100px;}
+.container_gallery img{padding-top:5px;}
+@media (min-width:768px){.navbar-wrapper{margin-top:20px;}
+.navbar-wrapper .container{padding-right:15px;padding-left:15px;}
+.navbar-wrapper .navbar{padding-right:0;padding-left:0;}
+.navbar-wrapper .navbar{border-radius:4px;}
+.carousel-caption p{margin-bottom:20px;font-size:21px;line-height:1.4;}
+.featurette-heading{font-size:50px;}
+}
+@media (min-width:992px){.featurette-heading{margin-top:60px;}
+}
+.logo_container{
+	padding-top:150px;padding-bottom:110px;
+}
+@media (max-width:721px)
+{
+	.featurette-divider{margin:40px;}
+	.logo_container{padding-top:100px;padding-bottom:60px;}
+}

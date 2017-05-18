@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barcelona-map</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" defer></script>
+        <script src="js/bootstrap.js" defer></script>
+		<script src="assets/smooth-scroll/SmoothScroll.js" defer></script>
+		<link href="css/carousel.css" rel="stylesheet">
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		<link rel="Shortcut icon" href="foto/icon3.ico" />
+</head>
+
+<body>
+  <style>
+.map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+  </style>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">
+			<img class="img" src="foto/title2.png" alt="page title" width="100" height="27">
+	  </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="default"><a href="index.html">Home</a></li>
+        <li><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="gallery.html">Gallery</a></li> 
+        <li><a href="information.html">Information</a></li> 
+		<li class="active"><a href="map.html">Map</a></li> 
+      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+					<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+			  </ul>
+    </div>
+  </div>
+        </nav>
+
+      </div>
+    </div>
+<div class="container">
+
+          <div class="col-md-8 col-md-offset-2">
+		  <div class="logo_container">
+				<img class="img-responsive center-block" src="foto/map_logo.png" alt="map logo">
+		  </div>
+	     </div>
+	</div>  	  
+
+
+ <div class="container" style="background-image: url(foto/preloader.gif);background-repeat:no-repeat;background-position: center; ">
+
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zTt3VHyB_J7g.kumx8ddOnsHM" width="100%" height="700" frameborder="0" style="border:0"></iframe>
+ 
+ </div>
+
+<div class="footer">
+
+	  <hr>
+			<div class="col-md-8 col-md-offset-2">
+			
+		      <footer>
+				<p class="pull-right"><a href="terms.html">Terms</a>&#160;&#183;&#160;<a href="#">Back to top</a></p>
+				<p>&copy; 2016 Bartosz Ammer |
+	
+		
+			 <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#basicModal">About me</a>
+	
+				<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">About me</h4>
+							</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-4" style="text-align: center;">
+									<img class="img" src="foto/about_me.png" alt="about me photo" width="140" height="140">
+								</div>
+								
+								<div class="col-md-8" style="height: 10em; display: flex; align-items: center; justify-content: center;">
+									<p>My name is Bartosz Ammer. I'm from Poland and I'm first-year student of Computer Science. My passion is photography and of course programming. I also like travelling and learning new things.</p>
+								</div>
+							</div>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+						</div>
+					</div>
+				</div>
+				
+				</p>
+			 
+			 </footer>
+			  </div>
+</div>
+	
+
+  
+
+</body>
+</html>
